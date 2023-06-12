@@ -1,0 +1,57 @@
+/* styles.css */
+
+/* Common Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  p {
+    line-height: 1.5;
+  }
+  
+  form {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  input[type="text"] {
+    padding: 8px;
+    width: 300px;
+  }
+  
+  button[type="submit"] {
+    padding: 8px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Index Page */
+  #index-container {
+    text-align: center;
+  }
+  
+  /* Result Page */
+  #result-container {
+    text-align: justify;
+  }
+  
+  /* Error Page */
+  #error-container {
+    text-align: center;
+    color: red;
+  }
+  
